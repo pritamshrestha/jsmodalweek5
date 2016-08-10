@@ -5,6 +5,8 @@
 	   <link rel="stylesheet" href="css/main.css">
 	   <meta charset="utf-8">
 	   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
 
 </head>
 <body>
@@ -56,6 +58,135 @@
     </div>
   </div>
 </div>
+      <!-- use of the varying trigger button -->
+
+
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Open modal for @mdo</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">Open modal for @fat</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Open modal for @getbootstrap</button>
+...more buttons...
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="exampleModalLabel">my message</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="control-label">enter address</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="control-label">comment here</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">click here to close</button>
+        <button type="button" class="btn btn-primary">submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- this is the use of the tab js -->
+ <div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">
+        <h1 class="text-center">This is the first heading of the page</h1>
+        <p class="text-center lead">This is the first paragraph of the page</p>
+        <img src="img/image.jpg" class="img-responsive center-block" width="300px">
+        <div class="text-center">
+    	<h2>If you like this page please subscribe us</h2>
+    	<a href="#"><button type="button" class="btn btn-danger bt btn-lg">Subscribe</button></a>
+    </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="profile">
+      <h1 class="text-center"> This is the second heading of the page</h1>
+      <p class="text-center lead">This is the second paragraph of the page</p>
+      <img src="img/image1.jpg" class="imag-responsive center-block img-circle" width="300px">
+    <div class="text-center">
+    	<h2>If you like this page please subscribe us</h2>
+    	<a href="#"><button type="button" class="btn btn-danger bt btn-lg">Subscribe</button></a>
+    </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="messages">
+    	<h1 class="text-center">This is the third heading of the page</h1>
+    	<p class="text-center lead">This is the third paragraph of the page</p>
+    	<img src="img/image2.jpg" class="img-responsive center-block img-rounded" width="300px">
+    <div class="text-center">
+    	<h2>If you like this page please subscribe us</h2>
+    	<a href="#"><button type="button" class="btn btn-danger bt btn-lg">Subscribe</button></a>
+    </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="settings">
+    	<h1 class="text-center">This is the fourth heading of the page</h1>
+    	<p class="text-center lead"> This is the fourth paragraph  of the page</p>
+    	<img src="img/image.jpg" class="img-responsive center-block img-thumbnail" width="300px">
+    <div class="text-center">
+    	<h2>If you like this page please subscribe us</h2>
+    	<a href="#"><button type="button" class="btn btn-danger bt btn-lg">Subscribe</button></a>
+    </div>
+    </div>
+  </div>
+
+</div>
+<!-- this is the use of the tooltip -->
+   <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip on left">Tooltip on left</button>
+
+<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Tooltip on top</button>
+
+<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">Tooltip on bottom</button>
+
+<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Tooltip on right</button>
+
+<br>
+<br>
+<br>
+<!-- this is the use of the collapse in javascript -->
+<a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+  what is your name?
+</a>
+
+<div class="collapse" id="collapseExample">
+  <div class="well">
+   My name is pritam shrestha i am from nepal .i have been here since 2010. it's been a long time.
+   My name is pritam shrestha i am from nepal .i have been here since 2010. it's been a long time
+   My name is pritam shrestha i am from nepal .i have been here since 2010. it's been a long time
+   My name is pritam shrestha i am from nepal .i have been here since 2010. it's been a long time
+   My name is pritam shrestha i am from nepal .i have been here since 2010. it's been a long time
+   My name is pritam shrestha i am from nepal .i have been here since 2010. it's been a long time
+  </div>
+</div>
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+  tell me something about you?
+</button>
+<div class="collapse" id="collapseExample">
+  <div class="well">
+	  i am from nepal. i have passed bachelor in engineering from nepal in 2008.
+	  i am from nepal. i have passed bachelor in engineering from nepal in 2008.
+	  i am from nepal. i have passed bachelor in engineering from nepal in 2008.
+	  i am from nepal. i have passed bachelor in engineering from nepal in 2008.
+      i am from nepal. i have passed bachelor in engineering from nepal in 2008.
+  </div>
+</div>
+<br>
+<br>
+<br>
+
         <!-- this is the latest modified version of the css -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -66,7 +197,15 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	      
+	<!-- put the javascript at end of the code just above the body tag -->
+	<script>
 
+	$(function () {
+	$('[data-toggle="tooltip"]').tooltip()
+		})
+   </script>
+	     
+	
+	
 </body>
 </html>
